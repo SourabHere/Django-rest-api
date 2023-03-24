@@ -186,3 +186,5 @@ curl -X POST -H "Content-Type: application/json" -d '{"product_name":"New Produc
 ```
 curl -X PUT -H "Content-Type: application/json" -d '{"product_name":"Updated Product", "product_Category":"Category", "product_brand_name":"Brand", "product_img":""}' http://localhost:8000/api/products/<product_id>/
 ```
+
+5) To call the hosted API replace the "http://127.0.0.1:8000/" with "https://product-y6j6.onrender.com"
